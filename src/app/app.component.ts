@@ -1,4 +1,14 @@
-import { Component } from '@angular/core';
+import { ChangeDetectorRef, input, Component, OnInit, OnDestroy, viewChild } from '@angular/core';
+
+import { FingerprintReader,
+  SampleFormat, 
+  DeviceConnected, 
+  DeviceDisconnected, 
+  SamplesAcquired, 
+  AcquisitionStarted, 
+  AcquisitionStopped } from '@digitalpersona/devices';
+
+  import './modules/WebSdk';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +17,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'huellero6';
+  private reader: FingerprintReader;
 }
