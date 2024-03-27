@@ -22,12 +22,12 @@
       "ES2022",
       "dom"
     ],
-    "typeRoots": ["./src/app/modules/WebSdk",
+    "typeRoots": ["./src/app/core/modules/WebSdk",
                   "./node_modules/@types"],
-    "types": ["./src/app/modules/WebSdk"],
+    "types": ["./src/app/core/modules/WebSdk"],
     "allowJs": true
   },
-  "include": ["./src/app/modules/WebSdk"],
+  "include": ["./src/app/core/modules/WebSdk"],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,

@@ -8,7 +8,7 @@ import { FingerprintReader,
   AcquisitionStarted, 
   AcquisitionStopped } from '@digitalpersona/devices';
 
-  import './modules/WebSdk';
+  import './core/modules/WebSdk';
 
 @Component({
   selector: 'app-root',
